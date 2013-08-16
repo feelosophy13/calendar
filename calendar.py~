@@ -194,7 +194,6 @@ def draw_month(month, year):
         if (start_day + 1) % 7 == 0 and i != last_day:
             print('\n')
         start_day += 1
-    print('\n')    
 
 # THIS IS A USABLE FUNCTION.
 def draw_year(year):
